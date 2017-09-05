@@ -8,10 +8,10 @@ namespace CustomClasses
 {
     public class Empleado : Persona
     {
-        public double Salario { get;  set; }
+        public double Salario { get; public set; }
         public Empleado()
         {
-           
+           //Constructor
         }
 
         public void IncrementarSalario(double porcentaje)

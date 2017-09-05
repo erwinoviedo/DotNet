@@ -20,9 +20,14 @@ namespace CustomClasses
         #endregion
 
         #region Metodos
-        public Persona()
+        public Persona(int id)
         {
             //Constructor
+            this.Id = id;
+        }
+        public Persona()
+        {
+
         }
         public int ObtenerEdadEnAños()
         {

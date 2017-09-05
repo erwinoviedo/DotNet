@@ -12,7 +12,6 @@ namespace HolaMundo
         {
             Console.WriteLine("Hola Mundo");
             InicializandoVariables();
-            UsandoIfElse();
             UsandoFor();
             UsandoWhile();
             UsandoDoWhile();
@@ -27,27 +26,17 @@ namespace HolaMundo
             var apellido = "Perez";
             var fechaNacimiento = new DateTime(1997, 8, 30);
             var edad = 20;
-
+            var employee = new CustomClasses.Empleado
+            {
+                Id = 1,
+                Nombre = "Maria",
+                Apellido = "Jose",
+                FechaNacimiento = new DateTime(1987, 8, 30)                
+            };
             Console.WriteLine($"{nombre} {apellido} tiene {edad} años y su fecha de nacimiento es {fechaNacimiento.ToShortDateString()}");
         }
 
-        static void UsandoIfElse()
-        {
-            var Maria = 20;
-
-            if(Maria > 18)
-            {
-                Console.WriteLine("Maria es mayor de edad");
-            }
-            else if (Maria > 11 && Maria <18)
-            {
-                Console.WriteLine("Maria es adolescente");
-            }
-            else
-            {
-                Console.WriteLine("Maria es niña");
-            }
-        }
+       
 
         static void UsandoFor()
         {
@@ -82,7 +71,6 @@ namespace HolaMundo
             const int mayoriaDeEdad = 18;            
 
         }
-
         
     }
 }
