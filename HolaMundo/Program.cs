@@ -76,7 +76,7 @@ namespace HolaMundo
             }
             while (totalPersonas < 20);
         }
-        static void UsandoConstants()
+        static void UsandoConstantes()
         {
             const double piValue = 3.141592653589;
             const int mayoriaDeEdad = 18;            
