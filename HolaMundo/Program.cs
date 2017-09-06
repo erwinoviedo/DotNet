@@ -22,18 +22,24 @@ namespace HolaMundo
         /// </summary>
         static void InicializandoVariables()
         {
-            string nombre = "Daniel";
+            var nombre = "Daniel";
             var apellido = "Perez";
             var fechaNacimiento = new DateTime(1997, 8, 30);
             var edad = 20;
-            var employee = new CustomClasses.Empleado
+            var employee = new CustomClasses.Empleado(1)
             {
-                Id = 1,
+               // Id = 1,
                 Nombre = "Maria",
                 Apellido = "Jose",
                 FechaNacimiento = new DateTime(1987, 8, 30)                
             };
-            Console.WriteLine($"{nombre} {apellido} tiene {edad} años y su fecha de nacimiento es {fechaNacimiento.ToShortDateString()}");
+            var persona = new CustomClasses.Persona(1);
+            var idpersona = persona.Id;
+            persona.Nombre = "Carlos";
+            //employeA.Salario = 1000;
+            Console.WriteLine("" + nombre + " " + apellido + " tiene " + edad +  " años y su fecha de nacimiento es " + fechaNacimiento.ToShortDateString());
+            var texto = $"{persona.Nombre}  {apellido} tiene {edad} años y su fecha de nacimiento es {fechaNacimiento.ToShortDateString()}";
+            Console.WriteLine(texto);
         }
 
        
@@ -68,8 +74,9 @@ namespace HolaMundo
         static void UsandoConstantes()
         {
             const double piValue = 3.141592653589;
-            const int mayoriaDeEdad = 18;            
+            const int mayoriaDeEdad = 18;
 
+            //piValue = 3.01;
         }
         
     }

@@ -8,15 +8,15 @@ namespace CustomClasses
 {
     public class Empleado : Persona
     {
-        public double Salario { get; public set; }
-        public Empleado()
+        //public double Salario { get; public set; }
+        public Empleado(int id): base(id)
         {
-           //Constructor
+           this.obe
         }
 
         public void IncrementarSalario(double porcentaje)
         {
-            this.Salario = this.Salario * porcentaje / 100;
+            //this.Salario = this.Salario * porcentaje / 100;
         }
     }
 }

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentenciasCondicionales", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiposPredefinidos", "TiposPredefinidos\TiposPredefinidos.csproj", "{9FB138B2-5918-484D-B564-BABAB2E777BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjerciciosPracticos", "EjerciciosPracticos\EjerciciosPracticos.csproj", "{F130A41E-B409-4682-9BAF-2BD886BEA4A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{9FB138B2-5918-484D-B564-BABAB2E777BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FB138B2-5918-484D-B564-BABAB2E777BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FB138B2-5918-484D-B564-BABAB2E777BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F130A41E-B409-4682-9BAF-2BD886BEA4A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F130A41E-B409-4682-9BAF-2BD886BEA4A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F130A41E-B409-4682-9BAF-2BD886BEA4A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F130A41E-B409-4682-9BAF-2BD886BEA4A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -12,7 +12,7 @@ namespace SentenciasCondicionales
         {
             var Maria = 20;
 
-            if (Maria > 18)
+            if (Maria > 18 || Maria > 20 )
             {
                 Console.WriteLine("Maria es mayor de edad");
             }
@@ -20,6 +20,7 @@ namespace SentenciasCondicionales
             {
                 Console.WriteLine("Maria es adolescente");
             }
+            
             else
             {
                 Console.WriteLine("Maria es niña");

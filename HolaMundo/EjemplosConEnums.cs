@@ -15,9 +15,9 @@ namespace HolaMundo
     {
         static void Ejemplo()
         {
-            TipoDeDocumento documento;
+            TipoDeDocumento documento = TipoDeDocumento.CarnetIdentidad;
 
-            documento = TipoDeDocumento.CarnetIdentidad;
+           // documento = TipoDeDocumento.CarnetIdentidad;
 
             if (documento == TipoDeDocumento.CarnetIdentidad)
             {
@@ -38,21 +38,28 @@ namespace HolaMundo
             TipoDeDocumento documento;
 
             documento = TipoDeDocumento.CarnetIdentidad;
-
             switch (documento)
             {
                 case TipoDeDocumento.CarnetIdentidad:
-                    //Codigo
                     break;
                 case TipoDeDocumento.Pasaporte:
-                    //Codigo
                     break;
                 case TipoDeDocumento.LibretaServicioMilitar:
-                    //Codigo
                     break;
                 default:
                     break;
             }
+
+            for (int index = 0; index < 10; index++)
+            {
+
+            }
+
+            if (1==1)
+            {
+
+            }
+            
         }
     }
 }
