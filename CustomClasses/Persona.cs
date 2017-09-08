@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CustomClasses
+namespace Classes
 {
     public class Persona
     {
@@ -13,17 +13,16 @@ namespace CustomClasses
         #endregion
 
         #region Propiedades
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public string Nombre { get; set; }
         public string Apellido { get; set; }
         public DateTime FechaNacimiento { get; set; }
         #endregion
 
         #region Metodos
-        public Persona(int id)
+        public Persona()
         {
             //Constructor
-            this.Id = id;
         }
        
         private int ObtenerEdadEnAños()

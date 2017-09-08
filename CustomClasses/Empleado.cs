@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CustomClasses
+namespace Classes
 {
     public class Empleado : Persona
     {
         //public double Salario { get; public set; }
-        public Empleado(int id): base(id)
+        public Empleado()
         {
-           this.obe
         }
 
         public void IncrementarSalario(double porcentaje)
