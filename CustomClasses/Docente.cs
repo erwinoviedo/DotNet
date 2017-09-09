@@ -6,16 +6,14 @@ using System.Threading.Tasks;
 
 namespace Classes
 {
-    public class Empleado : Persona
+    public class Docente : Persona
     {
         public string CodigoContrato { get; set; }
         public DateTime FechaContrato { get; set; }
-        public DateTime FechaIngreso { get; set; }
-        public DateTime FechaSalida { get; set; }
-        public Empleado()
+        public string Profesion { get; set; }
+        public Docente()
         {
+            //Constructor
         }
-
-        
     }
 }
