@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FA261262-11BC-4A0A-9D98-E355F16B9637}</ProjectGuid>
+    <ProjectGuid>{149B0034-1AE5-4CAB-BF44-C455A8431B7D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LinQ</RootNamespace>
-    <AssemblyName>LinQ</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>EjerciciosPracticps</RootNamespace>
+    <AssemblyName>EjerciciosPracticps</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
@@ -47,12 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CustomClasses\Classes.csproj">
-      <Project>{30a2287c-17c9-4113-b84e-ece1211a41b7}</Project>
-      <Name>Classes</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

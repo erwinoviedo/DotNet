@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,8 +11,13 @@ namespace LinQ
     {
         static void Main(string[] args)
         {
-            List<int> numeros = new List<int> { 2, 9, 5, 0, 3, 7, 1, 4, 8, 5 };
+            var personas = Helper.ObtenerListaDePersonas();
 
+            personas.Any(n => n.Nombre == "Maria");
+
+            
+            List<int> numeros = new List<int> { 2, 9, 5, 0, 3, 7, 1, 4, 8, 5 };
+            
             // muestra valores originales
             Console.WriteLine("Lista original:");
             ImprimeEnumerable(numeros);
@@ -48,10 +54,11 @@ namespace LinQ
             Console.Read();
         }
 
-        static void ImprimeEnumerable<T>(IEnumerable<T> enumerable)
+        static void ImprimeEnumerable(IEnumerable<int> enumerable)
         {
             foreach (var element in enumerable)
                 Console.WriteLine(" {0}", element);
+        }*/
         }
     }
 }

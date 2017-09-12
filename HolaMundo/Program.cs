@@ -22,24 +22,24 @@ namespace HolaMundo
         /// </summary>
         static void InicializandoVariables()
         {
-            var nombre = "Daniel";
+          /*  var nombre = "Daniel";
             var apellido = "Perez";
             var fechaNacimiento = new DateTime(1997, 8, 30);
             var edad = 20;
-            var employee = new CustomClasses.Empleado(1)
+            var employee = new Empleado
             {
                // Id = 1,
                 Nombre = "Maria",
                 Apellido = "Jose",
                 FechaNacimiento = new DateTime(1987, 8, 30)                
             };
-            var persona = new CustomClasses.Persona(1);
+            var persona = new CustomClasses.Persona
             var idpersona = persona.Id;
             persona.Nombre = "Carlos";
             //employeA.Salario = 1000;
             Console.WriteLine("" + nombre + " " + apellido + " tiene " + edad +  " años y su fecha de nacimiento es " + fechaNacimiento.ToShortDateString());
             var texto = $"{persona.Nombre}  {apellido} tiene {edad} años y su fecha de nacimiento es {fechaNacimiento.ToShortDateString()}";
-            Console.WriteLine(texto);
+            Console.WriteLine(texto);*/
         }
 
        

@@ -26,7 +26,7 @@ namespace Classes
             //Constructor
         }
        
-        private int ObtenerEdadEnAños()
+        private int ObtenerEdadEnAños(DateTime fecha)
         {
             // Save today's date.
             var today = DateTime.Today;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Classes
 {
-    public class Docente : Persona
+    public class Docente : Persona, IContrato
     {
         public string CodigoContrato { get; set; }
         public DateTime FechaContrato { get; set; }

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaMundo", "HolaMundo\HolaMundo.csproj", "{C66A1025-CE6A-425D-8123-062F44AB285B}"
 EndProject
@@ -24,6 +24,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{2A75A954-8504-4902-8EC0-7103283C981E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinQ", "LinQ\LinQ.csproj", "{FA261262-11BC-4A0A-9D98-E355F16B9637}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjerciciosPracticos", "EjerciciosPracticps\EjerciciosPracticos.csproj", "{149B0034-1AE5-4CAB-BF44-C455A8431B7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,10 @@ Global
 		{FA261262-11BC-4A0A-9D98-E355F16B9637}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA261262-11BC-4A0A-9D98-E355F16B9637}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA261262-11BC-4A0A-9D98-E355F16B9637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{149B0034-1AE5-4CAB-BF44-C455A8431B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{149B0034-1AE5-4CAB-BF44-C455A8431B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{149B0034-1AE5-4CAB-BF44-C455A8431B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{149B0034-1AE5-4CAB-BF44-C455A8431B7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +87,7 @@ Global
 		{F8DA07A9-653D-4616-889F-D9946CDCB65F} = {6174FBA3-8519-4826-83C2-FA14399927AA}
 		{2A75A954-8504-4902-8EC0-7103283C981E} = {6174FBA3-8519-4826-83C2-FA14399927AA}
 		{FA261262-11BC-4A0A-9D98-E355F16B9637} = {6174FBA3-8519-4826-83C2-FA14399927AA}
+		{149B0034-1AE5-4CAB-BF44-C455A8431B7D} = {6174FBA3-8519-4826-83C2-FA14399927AA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B2F42DDA-7FC5-455C-A7E7-1C0A78C8B327}

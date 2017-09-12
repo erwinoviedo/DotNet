@@ -10,7 +10,7 @@ namespace Diccionario
     {
         static void Main(string[] args)
         {
-            var diccionarioPersonas = new Dictionary<string, string>();
+            var diccionarioPersonas = new Dictionary<string, string >();
 
             diccionarioPersonas.Add("6945852", "Jose Ernesto Justiniano");
             diccionarioPersonas.Add("8597485", "Eliana Alvarez");

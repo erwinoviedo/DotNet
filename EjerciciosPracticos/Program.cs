@@ -66,7 +66,10 @@ namespace EjerciciosPracticos
 
             //Leer el nombre del alumno ingresado
             var textoIngresado = Console.ReadLine();
-
+            for (int i = 0; i < textoIngresado.Length; i++)
+            {
+                Console.WriteLine(textoIngresado[i]);
+            }
             foreach (var caracter in textoIngresado)
             {
                 Console.WriteLine(caracter);
@@ -111,9 +114,7 @@ namespace EjerciciosPracticos
                     break;
                 case DayOfWeek.Saturday:
                     Console.WriteLine("Sabado");
-                    break;
-                default:
-                    break;
+                    break;                
             }
             
 
