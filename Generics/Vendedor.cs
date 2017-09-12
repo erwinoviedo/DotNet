@@ -9,7 +9,7 @@ namespace Generics
     public class Vendedor
     {
         public int VendorId { get; set; }
-        public string CompanyName { get; set; }
+        public string NombreEmpresa { get; set; }
         public string Email { get; set; }
 
         public ResultadoDeOperacion RegistrarOrden(Producto producto, int cantidad,
@@ -27,20 +27,20 @@ namespace Generics
             #endregion
             var success = false;
 
-            var orderTextBuilder = new StringBuilder("Order from Acme, Inc" +
+            var orderTextBuilder = new StringBuilder("Order de Registro, Inc" +
                             System.Environment.NewLine +
-                            "Product: " + producto.ProductName +
+                            "Producto: " + producto.NombreProducto +
                             System.Environment.NewLine +
-                            "Quantity: " + cantidad);
+                            "Cantidad: " + cantidad);
             if (fechaEntrega.HasValue)
             {
                 orderTextBuilder.Append(System.Environment.NewLine +
-                            "Deliver By: " + fechaEntrega.Value.ToString("d"));
+                            "Fecha Entrega: " + fechaEntrega.Value.ToString("d"));
             }
             if (!String.IsNullOrWhiteSpace(instrucciones))
             {
                 orderTextBuilder.Append(System.Environment.NewLine +
-                            "Instructions: " + instrucciones);
+                            "Instrucciones: " + instrucciones);
             }
             var orderText = orderTextBuilder.ToString();
 
