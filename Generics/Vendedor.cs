@@ -45,7 +45,7 @@ namespace Generics
             var orderText = orderTextBuilder.ToString();
 
             var emailService = new EmailService();
-            var confirmation = emailService.SendMessage("New Order", orderText,
+            var confirmation = emailService.SendMessage("Nueva Orden", orderText,
                                                                      this.Email);
             if (confirmation.StartsWith("Mensaje enviado:"))
             {

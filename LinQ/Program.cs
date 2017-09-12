@@ -58,7 +58,7 @@ namespace LinQ
         {
             foreach (var element in enumerable)
                 Console.WriteLine(" {0}", element);
-        }*/
+        
         }
     }
 }
