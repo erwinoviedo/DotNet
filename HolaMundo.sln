@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaMundo", "HolaMundo\HolaMundo.csproj", "{C66A1025-CE6A-425D-8123-062F44AB285B}"
 EndProject
@@ -26,6 +26,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinQ", "LinQ\LinQ.csproj", "{FA261262-11BC-4A0A-9D98-E355F16B9637}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjerciciosPracticos", "EjerciciosPracticps\EjerciciosPracticos.csproj", "{149B0034-1AE5-4CAB-BF44-C455A8431B7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiposPorValorYReferencia", "TiposPorValorYReferencia\TiposPorValorYReferencia.csproj", "{6877FF3A-633D-4F9A-8E92-0BD0774D42EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +79,10 @@ Global
 		{149B0034-1AE5-4CAB-BF44-C455A8431B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{149B0034-1AE5-4CAB-BF44-C455A8431B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{149B0034-1AE5-4CAB-BF44-C455A8431B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6877FF3A-633D-4F9A-8E92-0BD0774D42EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6877FF3A-633D-4F9A-8E92-0BD0774D42EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6877FF3A-633D-4F9A-8E92-0BD0774D42EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6877FF3A-633D-4F9A-8E92-0BD0774D42EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
